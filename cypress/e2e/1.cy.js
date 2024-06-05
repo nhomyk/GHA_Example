@@ -8,7 +8,6 @@ it('Homepage - Assert load', () => {
   expect(resp.status).to.eq(200)
 })
 })
-
 it('Assert 200', () => {
   cy.request({
   url: 'http://google.com',
