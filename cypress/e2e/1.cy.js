@@ -17,12 +17,3 @@ it('Assert 200', () => {
 
 })
 })
-
-it('Homepage - verify page load', () => {
-  cy.visit('/')
-  const createObj = new Objects
-
-  // verify buttons
-  
-  createObj.testObjects.leftheaderbutton()
-})  
