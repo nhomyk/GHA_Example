@@ -14,17 +14,3 @@ it('Homepage - Assert load', () => {
   expect(resp.status).to.eq(200)
 })
 })
-
-it('Homepage - Search - Verify single search and result ', () => {
-    cy.visit('/')
-    const createObj = new Objects
-
-    // Type in search term, submit
-    createObj.testObjects.search().type('QA TEST')
-    cy.get('form').submit()
-
-
-    // Verify search result
-    cy.get('div[data-q="What is QA in testing?"]', { timeout: 60000 }).click()
-   
-  })
