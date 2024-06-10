@@ -12,12 +12,10 @@ class Objects{
         footerSettingsbutton : () => cy.get('div[class="ayzqOc pHiOh'),
 
         // homepage img
-        GoogleLogo : () => cy.get('img[class="lnXdpd'),
-
+         GoogleLogo : () => cy.get('img[class="lnXdpd'),
 
         // search field and buttons
         search : () => cy.get('textarea[class="gLFyf"]'),
-
 
 
     } 
