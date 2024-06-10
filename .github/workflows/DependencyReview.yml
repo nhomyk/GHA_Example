@@ -13,6 +13,6 @@ jobs:
       - name: 'Dependency Review'
         uses: actions/dependency-review-action@v4
         with:
-          allow-licenses: MIT, Apache-2.0, ISC, BSD-2-Clause, 0BSD, NOASSERTION
+          allow-licenses: MIT, Apache-2.0, ISC, BSD-2-Clause, 0BSD
           base-ref: ${{ github.event.push.base.sha || 'main' }}
           head-ref: ${{ github.event.push.head.sha || github.ref }}
