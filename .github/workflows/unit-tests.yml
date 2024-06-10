@@ -3,7 +3,7 @@ name: Unit Tests
 on: [push, pull_request]
 
 permissions:
-  contents: read-all
+  contents: read
 
 jobs:
   cypress-run:
