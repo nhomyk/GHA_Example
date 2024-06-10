@@ -1,5 +1,3 @@
-import Objects from '/cypress/POM/objects.js'
-
 it('Homepage - Assert load', () => {
   cy.request({
   url: 'http://google.com',
@@ -13,6 +11,7 @@ it('Assert 200', () => {
   url: 'http://google.com',
 }).then((response) => {
   expect(response.status).to.eq(200)    
+  
 
 })
 })
