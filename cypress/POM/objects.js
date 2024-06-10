@@ -1,7 +1,6 @@
 class Objects{
 
     testObjects = {
-
         // top navigation panel
         leftheaderbutton : () => cy.get('a[class="MV3Tnb"]'),
         rightheaderbutton : () => cy.get('a[class="gb_F"]'),
@@ -16,8 +15,8 @@ class Objects{
 
         // search field and buttons
         search : () => cy.get('textarea[class="gLFyf"]'),
-
-
     } 
+
+
 }
 export default Objects
