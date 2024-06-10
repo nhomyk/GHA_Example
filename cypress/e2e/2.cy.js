@@ -1,10 +1,3 @@
-beforeEach(() => {
-
-  cy.session('login', () => {
-
-  })
-});
-
 it('Homepage - Assert load', () => {
   cy.request({
   url: 'http://google.com',
